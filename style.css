@@ -1,0 +1,180 @@
+/* Basic styling for sections and elements */
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 150%;
+    background-color: aliceblue;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+    background: linear-gradient(to bottom right, rgb(111, 199, 244), rgb(50, 198, 239), rgb(19, 146, 196));
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav ul li a:hover {
+    color: rgb(246, 236, 236);
+}
+
+.detel {
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detel h1 {
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+.SeemyResume:hover {
+    background-color: #eff4fd;
+    text-decoration: #000000;
+}
+
+.ContactMe:hover {
+    background-color: #eff4fd;
+    text-decoration: #000000;
+}
+
+span {
+    color: orange;
+}
+
+.detel p {
+    color: #555;
+    line-height: 22px;
+
+}
+
+.detel a {
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #363232;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+button {
+    background: #000000;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ebbf31;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape {
+    bottom: 40px;
+}
+
+.images:hover .boy {
+    left: 45%;
+}
+
+.contactform {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.contactform h1 {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.about {
+    margin-left: 8%;
+    margin-top: 10%;
+    background-color: rgb(245, 208, 116);
+}
+
+nbsp {
+    color: rgb(12, 82, 180);
+}
+
+.about img {
+    height: 50%;
+    position: absolute;
+    left: 60%;
+    right: 100%;
+    bottom: 5%;
+    transition: bottom 1s, left 1s;
+}
+
+.resume img {
+    align-items: center;
+    padding-top: 5%;
+    padding-left: 27%;
+    height: 50%;
+    width: 50%;
+
+
+}
+
+.hire h2 {
+    font-size: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+.hire p {
+    color: #555;
+    line-height: 22px;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+}
+
+.detel li a {
+    font-size: 20px;
+    color: #03a7f9;
+    margin-bottom: 20px;
+}
